@@ -42,8 +42,6 @@ def xox(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.01)
-               
-
 def banner=("""\033[1;32m
 \033[1;32m   ____  _   __      ______________  ______
 \033[1;32m  / __ \/ | / /     / ____/  _/ __ \/ ____/
