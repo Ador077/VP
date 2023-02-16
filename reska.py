@@ -42,7 +42,17 @@ def xox(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.01)
-print banner=("""\033[1;32m
+##Logo##
+P = '\x1b[1;97m'
+G='\x1b[1;92m'
+R='\x1b[1;91m'
+S ='\x1b[1;96m'
+Y ='\x1b[1;93m'
+uu ='\x1b[1;95m'
+tred = speed
+
+	
+logo= f'''
 \033[1;32m   ____  _   __      ______________  ______
 \033[1;32m  / __ \/ | / /     / ____/  _/ __ \/ ____/
 \033[1;91m / / / /  |/ /_____/ /_   / // /_/ / __/   
