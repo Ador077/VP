@@ -48,19 +48,7 @@ def banner():
                     
                        
                                            
-	print("%s╔══════════════════════════════════════════╗"%(Z))
-	print("%s║%s  Author   : ACTION-FIRE              %s║"%(Z,B,M,Z))
-	print("%s║%s  Github   : github.com/ACTION-FIRE   %s║"%(Z,B,Z))
-	print("%s║%s  Facebook : facebook.com/ft.alvi.18  %s║"%(Z,B,Z))
-	print("%s║%s  Version  : V.3.0                    %s║"%(Z,B,H,Z))
-	print("%s╚══════════════════════════════════════════╝"%(Z))
-	print("")
-	xox('            %s》%s》%s》%sUIDCR3K%s《%s《%s《'%(M,H,B,H,B,H,M))
-	print("")
-
-def linex():
-	print("%s════════════════════════════════════════════%s\n"%(Z,N))
-
+	
 
 def result(OK,cp):
 	if len(OK) != 0 or len(cp) != 0:
