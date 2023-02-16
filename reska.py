@@ -33,12 +33,15 @@ import requests,json,os,sys,random,datetime,subprocess,time,re,calendar,base64,z
 from bs4 import BeautifulSoup as sop
 
 
-class jalan:
-    def __init__(self, z):
-        for e in z + "\n":
-            sys.stdout.write(e)
-            sys.stdout.flush()
-            time.sleep(0.009)
+loop = 0
+oks = []
+cps = []
+
+def xox(z):
+	for e in z + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(0.01)
             
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
